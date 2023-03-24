@@ -1,38 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Contato - Floricultura Flor de Primavera</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <img class="logo" src="logo_transparent.png" alt="">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="sobre.html">SOBRE</a></li>
-        <li><a href="servicos.html">SERVIÇOS</a></li>
-        <li class="contato"><a href="contato.html">CONTATO</a></li>
-      </ul>
-    </nav>
-  </header>
-    <div>
-      <h1>Entre em contato conosco</h1>
-      <label for="">Nome:</label>
-      <input type="text" id="nome">
-      <br>
-      <label for="">Telefone:</label>
-      <input type="tel">
-      <br>
-      <label for="">Email</label>
-      <input type="email" name="" id="">
-      <br>
-      <button>Enviar</button>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale Conosco - Floricultura Flor de Primavera</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="logo_transparent.png" alt="">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="sobre.html">SOBRE</a></li>
+          <li><a href="servicos.html">SERVIÇOS</a></li>
+          <li class="contato"><a href="contato.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    
-  <footer>github - @marianaarosa - 2023</footer>
-</body>
+    <div class="container">
+      <form>
+        <h1>Fale Conosco</h1>
+        <div class="form-row">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" required />
+        </div>
+
+        <div class="form-row">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="contact-info">
+        <p class="contact-phone">Entre em contato também pelo telefone:</p>
+        <p>(67) - 3251-2254<img class="phone" src="phone.png" alt=""></p> 
+        <p>(67) - 99927-5866<img class="phone" src="whats.png" alt=""></p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 - Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>

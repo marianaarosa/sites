@@ -35,7 +35,8 @@ ul li.contato a {
   background: rgb(11, 182, 137);
   color:white;
   padding:.8rem;
-  border-radius: 15%;
+  
+  
 }
 
 ul li.contato a:hover {
@@ -45,6 +46,10 @@ ul li.contato a:hover {
 img.logo {
   width: 2.rem;
   height: 2.8rem;
+}
+img.phone {
+  width: 1rem;
+  height: 1rem;
 }
 
 div h1 {
@@ -72,7 +77,6 @@ section {
 
 section img {
   max-width: 45%;
-  border-radius: 10%;
   margin: 0.2rem;
 }
 
@@ -103,4 +107,37 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact-info {
+  margin-right: 250px;
+  margin-bottom: 80px;
+  
+}
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  background-color: rgb(11, 182, 137);
+  color: white;
+  width: 130px;
+  height: 45px;
 }
