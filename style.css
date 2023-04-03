@@ -91,10 +91,38 @@ section img {
   }
 }
 
-ol {
+ol.lista_servicos {
   list-style-type: disc;
+  margin: 10px;
+  line-height: 2;
+  font-size: 16px;
+   
+}
+p.nao_encontrou {
+  margin: 1px;
+  line-height: 1.8;
+  font-size: 20px;
+  color:rgb(11, 182, 137);
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
 }
 
+img.coracao {
+  width: 2rem;
+  height: 2rem;
+}
+
+aside.sobre {
+  margin: 4px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+.iframe-wrapper {
+  display:flex;
+  justify-content:center;
+}
 
 footer {
   position: fixed;
